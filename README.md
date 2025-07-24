@@ -14,9 +14,8 @@ A modern, stylish PDF reader web app with a Star Wars-inspired scrolling animati
 
 ---
 
-## 🖼️ Example Screenshot
-
-![PDF Star Reader Screenshot](ss1.png)
+## 🖼️ Example gif
+![Demo video](example.gif)
 
 ---
 
