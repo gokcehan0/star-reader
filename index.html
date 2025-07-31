@@ -15,7 +15,12 @@
 
     <div class="container mt-5">
         <h1 class="text-center mb-4" id="pdfTitle">PDF Star Reader</h1>
-        <input type="file" id="pdfFile" accept=".pdf" class=" mb-3 text-light col-12">
+        <div class="mb-3">
+            <button class="btn btn-primary" onclick="document.getElementById('pdfFile').click()">
+                <i class="fas fa-upload me-2"></i>Upload PDF
+            </button>
+            <input type="file" id="pdfFile" accept=".pdf" style="display: none;">
+        </div>
         <button id="prevPage" class=" d-none  btn btn-secondary mt-3 me-2" disabled><i class="fas fa-arrow-left"></i></button>
         <button id="toggleReading" class=" d-none btn btn-primary mt-3"><i class="fas fa-pause"></i></button>
         <button id="nextPage" class=" d-none btn btn-secondary mt-3 ms-2 " disabled><i class="fas fa-arrow-right"></i></button>
